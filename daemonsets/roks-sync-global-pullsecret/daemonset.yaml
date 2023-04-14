@@ -17,7 +17,7 @@ spec:
       serviceAccountName: global-pull-secret-synch-sa
       securityContext:
         {}
-      terminationGracePeriodSeconds: 60
+      terminationGracePeriodSeconds: 600
       volumes:
         - name: scripts
           configMap:
